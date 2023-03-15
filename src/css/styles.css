@@ -18,3 +18,71 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+a {
+  text-decoration: none;
+  color: #212121;
+  display: block;
+}
+
+a:hover {
+  color: #ff6b08;
+}
+.country-list {
+list-style: none;
+}
+
+.country-card {
+  width: 300px;
+  border: #534d4d solid 1px;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+ 
+}
+
+.close-btn{
+  position: absolute;
+  bottom: 10;
+  right: 10;
+  color: #fff;
+  border: black solid 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #212121;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+
+
+}
+
+.country-card--info {
+  padding: 10px;
+  height: 250px;
+}
+
+.icon-card{
+  width: 100%;
+  border: none;
+}
+.icon {
+  width: 40px;
+ 
+  display: inline-block;
+  border: rgb(70, 65, 65) solid 1px;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+
+  margin-right: 10px;
+  padding: 0;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-info {
+font-weight: 600;
+}
